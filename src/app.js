@@ -7,7 +7,7 @@ app.get('/user', (req, res) => {
     res.send({ firstname: "Siddique", lastname: "Shaikh" })
 })
 
-
+// This will only handle Post /user
 app.post('/user', (req, res) => {
     // saving data to DB 
     res.send("Data Successfully Saved to the Data base")
