@@ -30,4 +30,16 @@ Today I learn  (13-11-2025)
 - Reading the query params in the routes
 - Reading the dynamic routes
 
+Today I learn  
+
+- Multiple Route Handlers – Play with the code
+- next()
+- next function and errors along with res.send()
+- app.use("/route", rH, [rH2, rH3], rH4, rH5);
+- What is a Middleware? Why do we need it?
+- How Express JS basically handles requests behind the scenes
+- Difference app.use and app.all
+- Write a dummy auth middleware for admin
+- Write a dummy auth middleware for all user routes, except /user/login
+- Error Handling using app.use("/", (err, req, res, next) => {});
 
